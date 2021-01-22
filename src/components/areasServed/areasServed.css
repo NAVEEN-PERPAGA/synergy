@@ -1,0 +1,13 @@
+.large-checkbox {
+    line-height: 40px;
+
+}
+
+.large-checkbox input {
+    width: 20px;
+    height: 20px;
+}
+
+.large-checkbox span {
+    margin-left: 20px;
+}

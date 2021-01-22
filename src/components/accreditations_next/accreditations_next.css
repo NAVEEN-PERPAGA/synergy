@@ -1,0 +1,21 @@
+.block {
+    border: solid 1px;
+    width: 50%;
+}
+
+.block-light {
+    background: gray;
+    width: 80px;
+    height: 100px;
+}
+
+.block input {
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .block {
+        width: 100%;
+    }
+}
+

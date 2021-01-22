@@ -1,0 +1,58 @@
+.main {
+  background-color: rgb(226, 226, 226);
+  padding: 40px;
+}
+
+.home-div-light {
+  background-color: rgb(235, 235, 235);
+  margin-left: 100px;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  width: 85%;
+}
+
+hr {
+  margin-right: 60px;
+}
+
+input[type="checkbox"] {
+  border: none;
+  width: auto;
+}
+
+.homeButton {
+  background-color: rgb(70, 187, 70);
+  padding: 15px 40px 15px 40px;
+  width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    padding: 20px;
+  }
+  .home-div-light {
+    padding: 0px;
+    margin-left: 0px;
+  }
+  hr {
+    margin-right: 30px;
+  }
+  .homeButton {
+    width: 100%;
+  }
+}
+
+/* @media screen and (min-width:768px) {
+    .main {
+        height: 89vh;
+    }
+} */
+
+/* @media screen and (min-width:1024px) {
+    .main{
+        height: 92vh;
+    }
+} */

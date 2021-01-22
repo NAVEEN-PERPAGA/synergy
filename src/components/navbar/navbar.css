@@ -1,0 +1,20 @@
+a.navbar-brand {
+    color:rgb(70, 187, 70);
+    font-style: italic;
+    font-size: 40px;
+}
+
+ul {
+    line-height: 5px;
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 480px) {
+    a.navbar-brand {
+        font-size: 18px
+    }
+    ul {
+        font-size: 8px;
+        line-height: 1px;
+    }
+}

@@ -1,0 +1,12 @@
+.sidebar {
+    line-height: 60px;
+    margin-left: -35px;  
+  }
+  
+  .sidebar ul {
+    line-height: 2.2rem;
+    font-size: 0.9rem;
+    list-style: none;
+  }
+
+  

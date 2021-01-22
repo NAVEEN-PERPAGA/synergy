@@ -1,0 +1,33 @@
+.blocks {
+    background: white;
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+    padding-top: 90px;
+    margin-left: 40px;
+}
+
+p.w-50 {
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: smaller;
+}
+
+.content-center {
+    margin-left: 24%;
+}
+
+@media screen and (max-width:480px) {
+    .blocks {
+        background: white;
+        width: 150px;
+        height: 150px;
+        border: solid 1px;
+        padding-top: 90px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .content-center {
+        margin-left: 18%;
+    }
+}

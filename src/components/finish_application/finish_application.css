@@ -1,0 +1,19 @@
+.scrollable {
+  background-color: white;
+  font-size: smaller;
+  padding: 25px;
+  overflow: scroll;
+  height: 400px;
+}
+
+.submitButton {
+  background-color: rgb(70, 187, 70);
+  padding: 15px 40px 15px 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .submitButton {
+        background-color: rgb(70, 187, 70);
+        padding: 15px 10px 15px 10px;
+      }
+}

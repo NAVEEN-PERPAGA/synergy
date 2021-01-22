@@ -1,0 +1,25 @@
+.verticalLine {
+  border-right: solid 1px;
+}
+
+@media screen and (max-width: 480px) {
+  .verticalLine {
+    border-right: 0px;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+    .width-full {
+        width: 200px;
+    }
+    .width-half {
+        width: 100px;
+    }
+} */
+
+/* @media screen and (min-width: 1366px) {
+    .main {
+        background-color: rgb(226, 226, 226);
+        height: 250vh;
+    }
+} */
